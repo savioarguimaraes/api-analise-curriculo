@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Ambientes virtuais
+venv/
+env/
+.venv
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Logs e temporários
+*.log
+*.tmp
+nul
+
+# Documentação
+README.md
+*.docx
+*.pdf
+*.md
+!requirements.txt
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini

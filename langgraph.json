@@ -1,0 +1,7 @@
+{
+    "dependencies": ["."],
+    "graphs": {
+      "agent": "src/agente.py:curriculo"
+    },
+    "env": ".env"
+  }
