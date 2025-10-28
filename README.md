@@ -32,32 +32,32 @@ Certifique-se de ter instalado:
 
 ### Passo-a-passo
 
-1. Clonar o repositório
+#### 1. Clonar o repositório
 
 ```bash
 # Clone o projeto
 git clone https://github.com/savioarguimaraes/api-analise-curriculo.git
 
 ```
-2. Entre na pasta 'api-analise-curriculo' e renomeie o arquivo .env.example para .env
+#### 2. Entre na pasta 'api-analise-curriculo' e renomeie o arquivo .env.example para .env
 
-3. Abra o arquivo .env e insira uma chave de API da OpenAI
+#### 3. Abra o arquivo .env e insira uma chave de API da OpenAI
 
-4. No terminal, entre na pasta 'api-analise-curriculo' e execute o comando:
+#### 4. No terminal, entre na pasta 'api-analise-curriculo' e execute o comando:
 
 ```bash
 # Subir os containers
 docker-compose up --build
 ```
-5. Aguarde até que o deploy esteja completo.
+#### 5. Aguarde até que o deploy esteja completo.
 
-6. Teste a API
+#### 6. Teste a API
 
 - Para verificar se está funcionando, acesse http://localhost:8000
 - Para acessar a documentação Swagger e testar, acesse http://localhost:8000/docs
 - Para acessar a documentação Redoc, acesse http://localhost:8000/redoc
 
-7. Confira os logs no MongoDB
+#### 7. Confira os logs no MongoDB
 
 ### Teste Rápido via Swagger
 
